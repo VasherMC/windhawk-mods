@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://windhawk.net/</id>
+    <title>Windhawk Mod Updates</title>
+    <updated>2024-04-25T05:33:51.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://windhawk.net/"/>
+    <subtitle>Updates in the official collection of Windhawk mods</subtitle>
+    <icon>https://windhawk.net/favicon.ico</icon>
+    <rights>Ramen Software</rights>
+    <entry>
+        <title type="html"><![CDATA[Desktop Watermark Tweaks 1.0.0]]></title>
+        <id>https://windhawk.net/mods/desktop-watermark-tweaks#6f79f483f04d62e6bcaf53d7144e17fadd78b2db</id>
+        <link href="https://windhawk.net/mods/desktop-watermark-tweaks"/>
+        <updated>2024-04-25T05:33:51.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="desktopwatermarktweaks">Desktop Watermark Tweaks</h1>
+<p>This mod lets you tweak certain things about the desktop watermark, like whether to display it
+and what to display in the build section.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clean up UWP processes 0.1]]></title>
+        <id>https://windhawk.net/mods/uwp-clean#b2477031777f6f8bd19ff15c62815fc67488a38b</id>
+        <link href="https://windhawk.net/mods/uwp-clean"/>
+        <updated>2024-04-25T05:32:04.000Z</updated>
+        <content type="html"><![CDATA[<p>The Universal Windows Platform (UWP), in the spirit of being unoptimized, keep all of their many processes operating all of the time: at the logon of the user, RuntimeBroker automatically restarting, and even when UWP apps are closed. This mod makes ApplicationFrameHost and RuntimeBroker automatically terminate unless Settings or Windows Security are open. You can add to the list of apps to keep the programs open if you so choose.</p>
+<p><strong>If you want to add more apps like WhatsApp etc to this list, you must turn off background processes for the app in the Metro Settings, or the app stays suspended.</strong></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Taskbar Scroll Actions 1.0.1]]></title>
+        <id>https://windhawk.net/mods/taskbar-scroll-actions#e3eaf2b9f4c26209569da42ac3e648c1faa8265a</id>
+        <link href="https://windhawk.net/mods/taskbar-scroll-actions"/>
+        <updated>2024-04-24T18:04:45.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added a new scroll area option: The taskbar without the notification area.</li>
+<li>On new Windows 11 versions, consider the clock on secondary taskbars as a notification area.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Icon Resource Redirect 1.0.3]]></title>
+        <id>https://windhawk.net/mods/icon-resource-redirect#3757ba003fd3b4550edf1b57b0af88182cff3789</id>
+        <link href="https://windhawk.net/mods/icon-resource-redirect"/>
+        <updated>2024-04-24T16:47:24.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added redirection of bitmaps and cursors in addition to icons.</li>
+<li>Improved redirection to support more cases.</li>
+<li>Added detailed logging.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Icon Resource Redirect 1.0.2]]></title>
+        <id>https://windhawk.net/mods/icon-resource-redirect#3107e3fe77c403cd149536f9c648e9603e6b4057</id>
+        <link href="https://windhawk.net/mods/icon-resource-redirect"/>
+        <updated>2024-04-23T16:06:15.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Hook the LoadImageW function to have more icons replaced.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Turn off change file extension warning 1.0]]></title>
+        <id>https://windhawk.net/mods/extension-change-no-warning#758942c216ce5c5019e89e88726267a5a7fbe9d3</id>
+        <link href="https://windhawk.net/mods/extension-change-no-warning"/>
+        <updated>2024-04-23T13:19:31.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="turnoffchangefileextensionwarning">Turn off change file extension warning</h1>
+<p>When a file is renamed and its extension is changed, a confirmation warning
+appears, this mod turns it off.</p>
+<p><img src="https://i.imgur.com/ZV47UCC.png" alt="Screenshot" /></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11 Taskbar Styler 1.3.1]]></title>
+        <id>https://windhawk.net/mods/windows-11-taskbar-styler#72258fe7830a25a42dd597bd6b8588f02f4b6152</id>
+        <link href="https://windhawk.net/mods/windows-11-taskbar-styler"/>
+        <updated>2024-04-23T11:52:18.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Having more than one target applied for the same element is now supported.</li>
+<li>Added the Bubbles theme.</li>
+<li>Fixed some styles not being restored when the mod is unloaded.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11 Taskbar Styler 1.3]]></title>
+        <id>https://windhawk.net/mods/windows-11-taskbar-styler#085a17c3ddc3084feb9f607b971d4873076d6fb7</id>
+        <link href="https://windhawk.net/mods/windows-11-taskbar-styler"/>
+        <updated>2024-04-20T17:28:24.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added themes! Currently, only the sample WinXP theme is integrated into the mod and can be selected in the settings.</li>
+<li>Added support for customizing some elements which weren't customizable before.</li>
+<li>Fixed: Only parse styles when the target element is available. Previously styling some elements could cause a crash on startup.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11 Start Menu Styler 1.1.1]]></title>
+        <id>https://windhawk.net/mods/windows-11-start-menu-styler#ea404918c73f63626fee81883879365498d2cdd9</id>
+        <link href="https://windhawk.net/mods/windows-11-start-menu-styler"/>
+        <updated>2024-04-20T15:49:01.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fixed incorrect class name replacements.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11 Start Menu Styler 1.1]]></title>
+        <id>https://windhawk.net/mods/windows-11-start-menu-styler#088c43ae0fea274c39f5aab12168e9a3e792c579</id>
+        <link href="https://windhawk.net/mods/windows-11-start-menu-styler"/>
+        <updated>2024-04-20T14:38:34.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added themes! Currently, four themes are integrated into the mod and can be selected in the settings.</li>
+<li>Added support for customizing some elements which weren't customizable before.</li>
+<li>Fixed: Only parse styles when the target element is available. Previously styling some elements could cause a crash on startup.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classic Explorer Treeview 1.1]]></title>
+        <id>https://windhawk.net/mods/classic-explorer-treeview#92c875fd5462637a9cd1da3b218bd839ba819dc4</id>
+        <link href="https://windhawk.net/mods/classic-explorer-treeview"/>
+        <updated>2024-04-19T15:49:42.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Enabling the folders pane will now hide real InfoBands and vice versa</li>
+<li>Fixed a hidden bug where clicking the X button many times would hang Explorer</li>
+<li>Added a working entry in the Explorer Bars submenu</li>
+<li>Removed 32bit "support"</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remove Command Bar 1.0]]></title>
+        <id>https://windhawk.net/mods/remove-command-bar#7f9f18d539b9f251ed36b3d5940c26bb3f33f8de</id>
+        <link href="https://windhawk.net/mods/remove-command-bar"/>
+        <updated>2024-04-18T07:05:53.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="removecommandbar">Remove Command Bar</h1>
+<p>This mod removes the Vista or 7 Command Bar from file explorer windows without having to patch shellstyle.dll using external tools.
+This is meant to enable accurate looks on various pre-Vista file explorer mods.
+If your shellstyle.dll is already patched, restore it using the following command in a elevated command prompt:</p>
+<pre><code>sfc /scanfile=c:\windows\system32\shellstyle.dll
+</code></pre>
+<p>and reboot your system. If this is not done, the patch from the dll will take precedence over this mod.
+After the mod is enabled, kill the explorer.exe process and restart it for the changes to take place.</p>
+<p>The mod works by interjecting the request for a textual description of the file explorer window layout, and injecting a offset token into it.
+The default offset is -40, but you may want to change this in the mod settings.</p>
+<p>For issue reports, contact waldemar3194 on Discord, or file a report at my <a href="https://github.com/CyprinusCarpio/windhawk-mods">github repository</a>.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eradicate Immersive Menus 1.1.0]]></title>
+        <id>https://windhawk.net/mods/eradicate-immersive-menus#5e2bb70ab60874ee4c6adb0c2c30837080f6d634</id>
+        <link href="https://windhawk.net/mods/eradicate-immersive-menus"/>
+        <updated>2024-04-16T04:58:22.000Z</updated>
+        <content type="html"><![CDATA[<p>Apply to Narrator</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aerexplorer 1.5.9]]></title>
+        <id>https://windhawk.net/mods/aerexplorer#3d664dac19baf626c8d0c4f2c87d6622135680de</id>
+        <link href="https://windhawk.net/mods/aerexplorer"/>
+        <updated>2024-04-15T19:55:20.000Z</updated>
+        <content type="html"><![CDATA[<p>Fix sub-build collection</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aerexplorer 1.5.8]]></title>
+        <id>https://windhawk.net/mods/aerexplorer#da930af2ef8190e1b68734fb88e1334b0df12b50</id>
+        <link href="https://windhawk.net/mods/aerexplorer"/>
+        <updated>2024-04-15T19:01:49.000Z</updated>
+        <content type="html"><![CDATA[<p>Fix <code>ModernSearchFeatureEnabled</code> default case</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aerexplorer 1.5.7]]></title>
+        <id>https://windhawk.net/mods/aerexplorer#45cdb1c86c8fb0d2356fe4e97974917c22959680</id>
+        <link href="https://windhawk.net/mods/aerexplorer"/>
+        <updated>2024-04-15T10:40:39.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="aerexplorer">Aerexplorer</h1>
+<p>This mod includes various tweaks for the Windows Explorer to look and behave
+more like its Windows Vista, 7, 8, or older Windows 10 counterpart.</p>
+<h1 id="importantread">IMPORTANT: READ!</h1>
+<p>Windhawk needs to hook into <code>svchost.exe</code> to successfully capture the creation of Explorer windows.
+Please navigate to Windhawk's Settings, Advanced settings, More advanced settings, and make sure that
+<code>svchost.exe</code> is in the Process inclusion list.</p>
+<h1 id="showcase">Showcase</h1>
+<p><strong>Configured like Windows Vista</strong></p>
+<p><img src="https://raw.githubusercontent.com/aubymori/images/main/aerexplorer-vista.png" alt="Windows Vista" /></p>
+<p><strong>Configured like Windows 7</strong></p>
+<p><img src="https://raw.githubusercontent.com/aubymori/images/main/aerexplorer-7.png" alt="Windows 7" /></p>
+<p><strong>Configured like Windows 8.0</strong></p>
+<p><img src="https://raw.githubusercontent.com/aubymori/images/main/aerexplorer-8.png" alt="Windows 8.0" /></p>
+<p><strong>Configured like Windows 10 RTM</strong></p>
+<p><img src="https://raw.githubusercontent.com/aubymori/images/main/aerexplorer-10.png" alt="Windows 10 RTM" /></p>
+<h1 id="commonissues">Common issues</h1>
+<p><strong>Control Panel lost its styling.</strong></p>
+<p>OldNewExplorer allows for modification of UIFILE resources located in shell32.dll through the theme's
+shellstyle.dll. You can leave OldNewExplorer installed with all of its options disabled, or, if you're
+on 1903 or greater version, look into porting the modified UIFILEs from your shellstyle.dll to shell32.dll.mun.
+The former is generally easier, and works just fine, though.</p>
+<p><strong>The user folders keep reappearing under This PC on the navigation pane.</strong></p>
+<p>This is an issue with the way the navigation pane works. Since the user folders are under This PC in the path,
+it will try to correct itself by adding them under This PC on the navigation pane. If you use
+<a href="https://winclassic.net/thread/2013/moving-user-folders-back-pc">this registry hack</a>, they will be moved back
+under your user folder, and stop reappearing under This PC on the navigation pane.</p>
+<h1 id="support">Support</h1>
+<p>This mod is primarily tested on Windows 10 Vibranium (which includes 2004, 20H2,
+21H1, 21H2, and 22H2), but it has been confirmed to work to a varying degree on:</p>
+<ul>
+<li>Redstone 4 (1803)</li>
+<li>Redstone 5 (1809)</li>
+<li>Vanadium (1909)</li>
+<li>Iron (Server 2022)</li>
+</ul>
+<p>Additionally, you can get it working on newer versions such as Windows 11 by replacing
+ExplorerFrame.dll with that from build 21332, but it is not supported and not recommended.</p>
+<p>Feel free to try it on other versions, but it may not work.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Icon Resource Redirect 1.0.1]]></title>
+        <id>https://windhawk.net/mods/icon-resource-redirect#fd5c9631d7d4d73369b9b492edc8990c1cbfd32c</id>
+        <link href="https://windhawk.net/mods/icon-resource-redirect"/>
+        <updated>2024-04-14T06:49:55.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Hook the LoadIconWithScaleDown function to have more icons replaced.</li>
+<li>If an icon doesn't exist in the custom resource file, the original icon is used.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Icon Resource Redirect 1.0]]></title>
+        <id>https://windhawk.net/mods/icon-resource-redirect#f2f6321492b1d47ac920e45cacd533f14484a59c</id>
+        <link href="https://windhawk.net/mods/icon-resource-redirect"/>
+        <updated>2024-04-13T10:54:52.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="iconresourceredirect">Icon Resource Redirect</h1>
+<p>Define alternative resource files for loading icons (e.g. instead of
+imageres.dll) for simple theming without having to modify system files.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Name explorer windows 1.0]]></title>
+        <id>https://windhawk.net/mods/explorer-name-windows#bc440b43084dec4bf6a839f7e72947bda179995c</id>
+        <link href="https://windhawk.net/mods/explorer-name-windows"/>
+        <updated>2024-04-11T22:27:24.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="nameexplorerwindows">Name explorer windows</h1>
+<p>Assign custom names to explorer windows, just like in Chrome.</p>
+<p><img src="https://i.imgur.com/sSI0Kh6.gif" alt="Demonstration" /></p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Taskbar Labels for Windows 11 1.2.4]]></title>
+        <id>https://windhawk.net/mods/taskbar-labels#52fb2fdb8d52bcee8b05e4e7f89ac3027f633954</id>
+        <link href="https://windhawk.net/mods/taskbar-labels"/>
+        <updated>2024-04-10T16:49:43.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added an option to set the maximum taskbar item width (only used for the Windows adaptive width).</li>
+</ul>]]></content>
+    </entry>
+</feed>
