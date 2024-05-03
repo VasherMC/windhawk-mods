@@ -32,7 +32,7 @@
                 "published": 1713177639000,
                 "rating": 10,
                 "ratingUsers": 9,
-                "updated": 1713210920000,
+                "updated": 1714298793000,
                 "users": 254
             },
             "metadata": {
@@ -44,7 +44,7 @@
                     "*"
                 ],
                 "name": "Aerexplorer",
-                "version": "1.5.9"
+                "version": "1.6.0"
             }
         },
         "aero-flyout-fix": {
@@ -795,7 +795,7 @@
                 "published": 1696691422000,
                 "rating": 10,
                 "ratingUsers": 21,
-                "updated": 1706347467000,
+                "updated": 1714348037000,
                 "users": 843
             },
             "metadata": {
@@ -812,7 +812,7 @@
                 ],
                 "name": "Classic Explorer navigation bar",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.0.1"
+                "version": "1.0.2"
             }
         },
         "explorer-name-windows": {
@@ -1020,20 +1020,21 @@
                 "published": 1713005692000,
                 "rating": 9,
                 "ratingUsers": 5,
-                "updated": 1713977244000,
+                "updated": 1714461553000,
                 "users": 50
             },
             "metadata": {
                 "author": "m417z",
-                "description": "Define alternative resource files for loading icons (e.g. instead of imageres.dll) for simple theming without having to modify system files",
+                "compilerOptions": "-lshlwapi",
+                "description": "Define alternative files for loading various resources (e.g. instead of icons in imageres.dll) for simple theming without having to modify system files",
                 "github": "https://github.com/m417z",
                 "homepage": "https://m417z.com/",
                 "include": [
                     "*"
                 ],
-                "name": "Icon Resource Redirect",
+                "name": "Resource Redirect",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.0.3"
+                "version": "1.1.1"
             }
         },
         "icon16bitfix": {
@@ -1798,7 +1799,7 @@
                 "published": 1657984524000,
                 "rating": 10,
                 "ratingUsers": 359,
-                "updated": 1709842241000,
+                "updated": 1714156901000,
                 "users": 16473
             },
             "featured": true,
@@ -1816,7 +1817,7 @@
                 ],
                 "name": "Taskbar height and icon size",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.2.4"
+                "version": "1.2.5"
             }
         },
         "taskbar-labels": {
@@ -2281,7 +2282,7 @@
                 "published": 1703013948000,
                 "rating": 9,
                 "ratingUsers": 29,
-                "updated": 1713628141000,
+                "updated": 1714503594000,
                 "users": 1003
             },
             "metadata": {
@@ -2298,7 +2299,7 @@
                 ],
                 "name": "Windows 11 Start Menu Styler",
                 "twitter": "https://twitter.com/m417z",
-                "version": "1.1.1"
+                "version": "1.1.2"
             }
         },
         "windows-11-taskbar-styler": {
