@@ -2,12 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://windhawk.net/</id>
     <title>Windhawk Mod Updates</title>
-    <updated>2024-05-04T00:24:15.000Z</updated>
+    <updated>2024-05-04T10:47:17.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://windhawk.net/"/>
     <subtitle>Updates in the official collection of Windhawk mods</subtitle>
     <icon>https://windhawk.net/favicon.ico</icon>
     <rights>Ramen Software</rights>
+    <entry>
+        <title type="html"><![CDATA[Chrome UI Tweaks 1.0.0]]></title>
+        <id>https://windhawk.net/mods/chrome-ui-tweaks#418933d40a12c14b77f232191775a0763265e3c8</id>
+        <link href="https://windhawk.net/mods/chrome-ui-tweaks"/>
+        <updated>2024-05-04T10:47:17.000Z</updated>
+        <content type="html"><![CDATA[<p>Update chrome-ui-tweaks.wh.cpp</p>
+<ul>
+<li>Add 1 to negative Menuconfig setting values, to allow <code>-1</code> to be representable</li>
+<li>Minor changes to setting descriptions</li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chrome UI Tweaks 1.0.0]]></title>
         <id>https://windhawk.net/mods/chrome-ui-tweaks#b3ebf52d13f3f97310a05efda846b8d8ccb0c4e5</id>
@@ -223,18 +234,6 @@ appears, this mod turns it off.</p>
 <li>Added themes! Currently, four themes are integrated into the mod and can be selected in the settings.</li>
 <li>Added support for customizing some elements which weren't customizable before.</li>
 <li>Fixed: Only parse styles when the target element is available. Previously styling some elements could cause a crash on startup.</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Classic Explorer Treeview 1.1]]></title>
-        <id>https://windhawk.net/mods/classic-explorer-treeview#92c875fd5462637a9cd1da3b218bd839ba819dc4</id>
-        <link href="https://windhawk.net/mods/classic-explorer-treeview"/>
-        <updated>2024-04-19T15:49:42.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Enabling the folders pane will now hide real InfoBands and vice versa</li>
-<li>Fixed a hidden bug where clicking the X button many times would hang Explorer</li>
-<li>Added a working entry in the Explorer Bars submenu</li>
-<li>Removed 32bit "support"</li>
 </ul>]]></content>
     </entry>
 </feed>
