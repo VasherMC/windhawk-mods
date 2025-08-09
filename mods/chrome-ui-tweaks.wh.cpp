@@ -1,6 +1,6 @@
 // ==WindhawkMod==
-// @id              chrome-ui-tweaks2
-// @name            Chrome UI Tweaks2
+// @id              chrome-ui-tweaks
+// @name            Chrome UI Tweaks
 // @description     Small UI tweaks to Google Chrome
 // @version         1.0.1
 // @author          Vasher
