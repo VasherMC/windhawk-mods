@@ -2,7 +2,7 @@
 // @id              chrome-ui-tweaks
 // @name            Chrome UI Tweaks
 // @description     Small UI tweaks to Google Chrome
-// @version         1.0.0
+// @version         1.0.1
 // @author          Vasher
 // @github          https://github.com/VasherMC
 // @architecture    x86-64
@@ -152,6 +152,8 @@ Latest tested Chrome version: 124.0.6367.119 (stable), 126.0.6457.0 (canary)
 #include <libloaderapi.h>
 #include <windhawk_api.h>
 #include <winnt.h>
+#include <atomic>
+#include <optional>
 #include <string_view>
 
 using namespace std::string_view_literals;
@@ -623,15 +625,14 @@ void __thiscall ShowBookmarkBubble_Hook(void* _this, void* url, bool already_boo
 }
 // setting up arguments to call ShowBubble from ToolbarView::ShowBookmarkBubble
 const std::string_view BookmarkBubble_instructions =
-    "\x88\x5c\x24\x30"sv        // mov byte ptr [rsp+0x30], bl  (already_bookmarked = bl)
-    "\x48\x89\x74\x24\x28"sv    // mov qword ptr [rsp+0x28], rsi
-    "\x48\x89\x6c\x24\x20"sv    // mov qword ptr [rsp+0x20], rbp
+    "\x88\x5c\x24\x28"sv    // mov byte ptr [rsp+0x28], bl
+    "\x48\x89\x74\x24\x20"sv    // mov qword ptr [rsp+0x20], rsi
     "\x48\x89\xf9"sv            // mov rcx, rdi
     "\x48\x89\xc2"sv            // mov rdx, rax
-    "\x4d\x89\xf8"sv            // mov r8, r15
-    "\x4d\x89\xe1"sv            // mov r9, r12
+    "\x4d\x89\xe0"sv            // mov r8, r12
+    "\x4d\x89\xf9"sv            // mov r9, r15
     "\xe8"sv;                   // call
-const std::string_view BookmarkBubble_prologue = "AWAVAUATVWUS"sv;
+const std::string_view BookmarkBubble_prologue = "AWAVATVWS"sv;
 
 bool hook_BookmarkBubble(std::string_view code_section) {
     const char* hook_loc = search_function_instructions(
@@ -694,9 +695,9 @@ MenuConfig* MenuConfig_Instance_Hook() {
     return instance;
 }
 // in views::MenuItemView::AddMenuItemAt
-const std::string_view MenuConfig_Instance_postcall = // not unique in chrome 124.0.6367.91
-    "\x8b\x80\xcc\x00\x00\x00"sv    // eax = [rax]menuconfig->footnote_vertical_margin
-    "\x48\x0f\xba\xe8\x20"sv;       // BTS  rax, 0x20  (rax |= 0x1_0000_0000)
+const std::string_view MenuConfig_Instance_postcall = 
+    "\x8b\x80\xc0\x00\x00\x00"sv    // mov eax, [rax+0C0h]
+    "\x48\x0f\xba\xe8\x20"sv;       // bts rax, 20h
 
 
 // Locate the MenuConfig::Instance() function in chrome.dll that gets the global instance.
